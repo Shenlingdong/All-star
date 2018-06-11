@@ -1,0 +1,536 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+/*顶部开始*/
+.header{
+	width: 100%;
+	height: 45px;
+	background-color: #323232;
+	overflow: hidden;
+}
+.first{
+	/*width: px;*/
+	height: 45px;
+	margin: 0 auto;
+}
+.first li{
+	float: right;
+	display: block;
+	padding: 0 35px;
+	line-height: 45px;
+	background: url(../images/2.png) no-repeat left center ;
+}
+.first a{
+	font-size: 14px;
+	font-style: '微软雅黑';
+	color: #ffffff;
+}
+.first li:last-child{
+	background: none;
+}
+.header img{
+	margin-left: 1081px;
+	margin-top: 11px;
+	float: left;
+}
+.header p{
+	float: left;
+	color: #ffffff;
+	line-height: 45px;
+	padding-left: 9px;
+}
+/*顶部结束*/
+/*第二部分开始*/
+.theader{
+	width: 100%;
+	height: 80px;
+}
+.second{
+	height: 80px;
+	margin: 0 auto;
+}
+.second li{
+	float: right;
+	padding: 0 25px;
+	line-height: 80px;
+}
+.red{
+	font-size: 20px;
+	font-style: '微软雅黑';
+	display: block;
+	height: 76px;
+	color: #e8420a;
+	border-bottom: 4px solid #e8420a;
+}
+.black{
+	font-size: 20px;
+	font-style: '微软雅黑';
+	color:#000000;
+}
+.theader img{
+	float: left;
+	padding-left: 40px;
+	padding-top: 15px;
+	padding-bottom: 14px;
+}
+/*第二部分结束*/
+/*第三部分开始*/
+.sheader{
+	width: 100%;
+	height: 446px;
+	background: url(../images/4.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.shline{
+	float: left;
+	width: 100%;
+	height: 4px;
+	background: url(../images/5.jpg) no-repeat center center;
+}
+.frame{
+	width: 100%;
+	height: 47px;
+	background-color: #1c5080;
+	overflow: hidden;
+	font-size: 20px;
+	font-style: '微软雅黑';
+	color: white;
+	line-height: 47px;
+	text-align: center;
+}
+.box{
+	width: 100%;
+	height: 800px;
+	text-align: center;
+}
+.triangle{
+	display: inline-block;
+	width :0px;
+    height :0px;
+	border-top:45px solid #1c5080;
+	border-right :45px solid white;
+	border-bottom :45px solid white;
+	border-left:45px solid white;
+	margin:auto;
+}
+.right{
+	display: inline-block;
+	float: right;
+	margin-top: 3px;
+}
+.right2{
+	display: inline-block;
+	float: right;
+	margin-top: 100px;
+	margin-right: 47px;
+	position:absolute;
+	right:0;
+}
+.box1{
+	width: 1200px;
+	height: 313px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	background: url(../images/13.jpg) no-repeat center center;
+}
+.box1 p{
+	padding-top: 56px;
+	font-size: 36px;
+	color: #ffffff;
+}
+.nav{
+	display: inline-block;
+	margin-left: 103px;
+	float: left;
+}
+.nav li{
+	font-size: 26px;
+	padding-bottom: 14px;
+	color: #ffffff;
+}
+.naw{
+	display: inline-block;
+	margin-left: 160px;
+	margin-top: 45px;
+	width: 490px;
+	height: 106px;
+	float: left;
+	font-size: 18px;
+	color: #ffffff;
+}
+.naw li{
+	display: inline-block;
+}
+.naw img{
+	padding-right: 7px;
+	vertical-align:middle;
+}
+.a1{
+	margin-left: 50px;
+	overflow: hidden;
+}
+.a2{
+	float: left;
+	margin-top: 37px;
+}
+.a3{
+	float: left;
+}
+.naz{
+	float: left;
+	margin-top: 46px;
+	margin-left: 115px;
+	width: 179px;
+	height: 52px;
+	border: 1px solid #fff;
+	background: none;
+	border-radius: 10px;
+	font-style: '微软雅黑';
+	font-size: 24px;
+	line-height: 52px;
+	color: #ffffff;
+}
+.box2{
+	width: 1200px;
+	height: 364px;
+	background:url(../images/18.jpg)no-repeat center center;
+	margin: 0 auto;
+}
+.nbv{
+	float: left;
+	width: 350px;
+	margin-left: 545px;
+	color: #fff;
+}
+.b1{
+	float:left; 
+	font-size: 36px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.b2{
+	float:left;
+	font-size: 18px;
+	margin-bottom: 11px;
+}
+.nbw{
+	float: left;
+	display: inline-block;
+	margin-top:79px;
+	margin-left: 90px;
+}
+.c1{
+	font-size: 26px;
+	color: #ffffff;
+	margin-bottom: 50px;
+}
+.nbz{
+	float: left;
+	width: 179px;
+	height: 52px;
+	border: 1px solid #fff;
+	background: none;
+	border-radius: 10px;
+	font-style: '微软雅黑';
+	font-size: 24px;
+	line-height: 52px;
+	color: #ffffff;
+}
+/*第三部分结束*/
+/*第四部分开始*/
+.bigbox{
+	width: 100%;
+	height: 1200px;
+	margin-top: 80px;
+	background: url(../images/20.jpg)no-repeat center center;
+	text-align: center;
+}
+.ncv{
+	display: inline-block;
+}
+.ncv li{
+	float: left;
+	padding:0 13px;
+	font-size: 36px;
+	color: #000000;
+	background: url(../images/line1.png) no-repeat right center;
+}
+.ncv li:last-child{
+	background: none;
+}
+.d1{
+	font-size: 18px;
+	color: #000000;
+}
+.d2{
+	float: left;
+	margin-top: 520px;
+	margin-left: 60px;
+}
+.d3{
+	float: right;
+	margin-top: 520px;
+	margin-right: 60px;
+}
+.box3{
+	width: 1200px;
+	height: 1023px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.smallbox1{
+	float: left;
+	width: 588px;
+	height: 490px;
+	margin-right: 4px;
+	margin-bottom: 4px; 
+	background-color: blue;
+}
+.smallbox2{
+	float: left;
+	width: 608px;
+	height: 290px;
+	margin-bottom: 4px;
+	background-color: red;
+}
+.smallbox3{
+	float: left;
+	width: 608px;
+	height: 356px;
+	margin-bottom: 4px;
+	background-color: yellow;
+}
+.smallbox4{
+ 	float: right;
+ 	width: 608px;
+	height: 367px;
+	background-color: red;
+}
+.smallbox5{
+	position: relative;
+	top:494px;
+	width: 588px;
+	height: 527px;
+	margin-right: 4px;
+	background-color: gray;
+}
+/*第四部分结束*/
+/*底部开始*/
+.bottom{
+	width: 100%;
+	height: 800px;
+	background-color: #000000;
+}
+.bottombox{
+	width: 1200px;
+	height: 270px;
+	margin:0 auto;
+}
+.bottoms1{
+	width: 785px;
+	height: 270px;
+	float: left;
+}
+.bottoms1 li:first-child{
+	font-size: 18px;
+	color: #ffffff;
+}
+.sss1{
+	width: 115px;
+	height: 195px;
+	float: left;
+	padding-top: 75px;
+}
+.ssss1{
+	font-size: 14px;
+	color: #ffffff;
+	margin-top: 15px;
+	opacity: 0.8;
+}
+.sss2{
+	width: 120px;
+	height: 195px;
+	float: left;
+	padding-top: 75px;
+	text-align: center;
+}
+.sss2 img{
+	margin-top: 20px;
+}
+.sss3{
+	float: left;
+	width: 60px;
+	height: 143px;
+	padding-top: 127px;
+	text-align: center;
+}
+.sss4{
+	float: left;
+	width: 235px;
+	height: 145px;
+	padding-top: 125px;
+}
+.bottoms2{
+	float: left;
+	width: 415px;
+	height: 270px;
+}
+.xxx1{
+	height: 140px;
+	width: 205px;
+	float: left;
+}
+.xxx1 img{
+	float: left;
+	padding-top: 75px;
+}
+.xxx1 ul{
+	float: left;
+}
+.xxx2{
+	padding-left: 25px;
+	padding-top: 68px;
+	font-size: 26px;
+	color: #ffffff;
+}
+.xxx3{
+	font-size:13px; 
+	opacity: 0.8;
+	color: #ffffff;
+	padding-top: 9px;
+	padding-left: 25px;
+}
+.xxx4{
+	float: left;
+	width: 210px;
+	height: 70px;
+	font-size: 26px;
+	padding-top: 70px;
+	color: #ffffff;
+}
+.xxx5{
+	float: left;
+	width: 415px;
+	height: 105px;
+	font-size: 16px;
+	color: #ffffff;
+	padding-top: 25px;
+	padding-left: 85px;
+}
+.xxx5 li{
+	padding-bottom: 5px;
+}
+.bottom3{
+	margin:0 auto;
+	width: 1200px;
+	height: 400px;
+	color: #ffffff;
+}
+.yyy1{
+	width: 1200px;
+	height: 150px;
+	margin:0 auto;
+}
+.yyy1 li{
+	float: left;
+}
+.yy5{
+
+	font-size: 18px;
+	padding-top: 50px;
+	padding-right: 70px;
+}
+.yy4{
+	display: inline-block;
+	background:url(../images/24.jpg)no-repeat center top;
+	margin-top: 47px;
+	padding-top: 55px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.yy1{
+	background: url(../images/25.jpg)no-repeat top center;
+	margin-top: 47px;
+	padding-top: 55px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.yy2{
+	background: url(../images/26.jpg)no-repeat top center;
+	margin-top: 47px;
+	padding-top: 55px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.yy3{
+	background: url(../images/27.jpg)no-repeat top center;
+	margin-top: 47px;
+	padding-top: 55px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.bottom4{
+	width: 1200px;
+	height: 100px;
+	margin:0 auto;
+}
+.zz{
+	float: left;
+	width: 100px;
+	height: 75px;
+	font-size: 18px;
+	color: #ffffff;
+}
+.bottom4 li{
+	float: left;
+	color: #ffffff;
+	opacity: 0.8;
+	font-size: 14px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+.bottom5{
+	width: 1200px;
+	height: 70px;
+}
+.bottom5 li{
+	float: left;
+	color: #ffffff;
+	opacity: 0.8;
+	font-size: 14px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+.bottom6{
+	width: 1200px;
+	height: 70px;
+	float: left;
+}
+.bottom6 li{
+	float: left;
+	color: #ffffff;
+	opacity: 0.8;
+	font-size: 14px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+.bottomlast{
+	width: 1200px;
+	height: 70px;
+	margin:0 auto;
+	text-align: center;
+	font-size: 16px;
+	color:#ffffff;
+	padding-top: 40px;
+}
+.bottomlast p{
+	padding-bottom: 20px;
+}
